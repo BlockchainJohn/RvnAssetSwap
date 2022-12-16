@@ -85,3 +85,6 @@ const createTransaction = async (asset1, qty1, asset2, qty2) => {
   const sendTxResponse = await rp(sendTxOptions);
   console.log(sendTxResponse);
 })();
+
+  
+  This code creates a raw transaction that swaps asset1
